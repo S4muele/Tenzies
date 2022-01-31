@@ -89,7 +89,7 @@
 </div>
 
 <br>
-A web based dice game inspired by the board game [Tenzi](https://boardgamegeek.com/boardgame/113819/tenzi).
+A web based dice game inspired by the board game <a href="https://boardgamegeek.com/boardgame/113819/tenzi">Tenzi</a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
