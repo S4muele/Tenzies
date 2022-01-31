@@ -1,70 +1,212 @@
-# Getting Started with Create React App
+<div id="top"></div>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://s4muele.github.io/Tenzies/">
+    <img src="images/tenzies_thumb.png" alt="Logo" width="20%">
+  </a>
 
-### `npm test`
+<h3 align="center">Tenzies</h3>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <p align="center">
+    A web based dice game, made with React.
+    <br />
+    <a href="https://github.com/S4muele/Tenzies"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://s4muele.github.io/Tenzies/" target="_blank">View Demo</a>
+    ·
+    <a href="https://github.com/S4muele/Tenzies/issues" target="_blank">Report Bug</a>
+    ·
+    <a href="https://github.com/S4muele/Tenzies/issues" target="_blank">Request Feature</a>
+  </p>
+</div>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<div align="center">
+  <a href="https://s4muele.github.io/Tenzies/" target="_blank" align="center">
+    <img src="images/tenzies_thumb.png" alt="Logo" width="80%" max-width="650">
+  </a>
+  
+</div>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br>
+A web based dice game inspired by the board game [Tenzi](https://boardgamegeek.com/boardgame/113819/tenzi).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Built With
 
-### Code Splitting
+* [React.js](https://reactjs.org/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+<!-- GETTING STARTED -->
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To get a local copy up and running, you might follow these example steps.
 
-### Advanced Configuration
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project was bootstrapped with [Create React App](https://create-react-app.dev/docs/getting-started/).
+<br>
+To create one, first make sure you have the latest version of node.js and npm (or yarn) installed to your machine, then run the appropriate command for your chosen package manager: 
+* npm
+  ```sh
+    npx create-react-app my-app
+  ```
+* yarn
+  ```
+    yarn create react-app my-app
+  ```
 
-### Deployment
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Clone this repository to your local machine:
+   ```sh
+   git clone https://github.com/S4muele/Tenzies.git
+   ```
+2. Copy the Tenzies files to your newely created React App boilerplate.
 
-### `npm run build` fails to minify
+3. You'll need [nanoid](https://github.com/ai/nanoid#readme) and [react-confetti](https://www.npmjs.com/package/react-confetti) installed as dependencies to your project:
+   ```sh
+   npm install --save nanoid
+   ```
+   
+   ```sh
+   npm install react-confetti
+   ```
+4. Finally, navigate to the application folder and run it:
+   ```
+    npm start
+   ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Click on a die to hold its current value, then click on the "Roll" button to roll all unheld dices. You win the game when all held dices have the same value.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+[S4muele](https://www.linkedin.com/in/samuele-simeone-b27173216/) - [@anthony_sime](https://twitter.com/anthony_sime)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* Thanks to [Scrimba](https://scrimba.com) for the project idea. Make sure you check their amazing coding tutorials and subscribe to their *Frontend Developer Career Path* course if you're interested in learning to code in a fun and interactive way!
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/S4muele/tenzies.svg?style=for-the-badge
+[contributors-url]: https://github.com/S4muele/tenzies/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/S4muele/tenzies.svg?style=for-the-badge
+[forks-url]: https://github.com/S4muele/tenzies/network/members
+[stars-shield]: https://img.shields.io/github/stars/S4muele/tenzies.svg?style=for-the-badge
+[stars-url]: https://github.com/S4muele/tenzies/stargazers
+[issues-shield]: https://img.shields.io/github/issues/S4muele/tenzies.svg?style=for-the-badge
+[issues-url]: https://github.com/S4muele/tenzies/issues
+[license-shield]: https://img.shields.io/github/license/S4muele/tenzies.svg?style=for-the-badge
+[license-url]: https://github.com/S4muele/tenzies/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/samuele-simeone-b27173216/
+[product-screenshot]: images/tenzies_thumb.png
